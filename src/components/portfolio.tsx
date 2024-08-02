@@ -20,7 +20,7 @@ export function Portfolio() {
         <p className={styles.mainDescription}>
           Building web applications that make a difference.
         </p>
-        <Button className={styles.cvBtn} as="a" href="./cv24.pdf" target="_blank">View CV</Button>
+        <Button className={styles.cvBtn} href="./cv24.pdf" target="_blank">View CV</Button>
       </main>
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Projects</h2>
@@ -33,7 +33,7 @@ export function Portfolio() {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Button as="a" href="https://github.com/jtpennell/stockx" target="_blank">
+              <Button href="https://github.com/jtpennell/stockx" target="_blank">
                 View on GitHub
               </Button>
             </CardFooter>
